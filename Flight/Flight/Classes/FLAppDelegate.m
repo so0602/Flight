@@ -12,7 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.navigationController = (id)self.window.rootViewController;
+    self.window.backgroundColor = WhiteColor();
+    
     return YES;
 }
 							

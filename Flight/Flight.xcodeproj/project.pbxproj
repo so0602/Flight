@@ -46,6 +46,8 @@
 		B6777B5D18E1309A00BD8F05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4518E1309A00BD8F05 /* QuartzCore.framework */; };
 		B6777B5E18E1309A00BD8F05 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4618E1309A00BD8F05 /* Security.framework */; };
 		B6777B5F18E1309A00BD8F05 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4718E1309A00BD8F05 /* SystemConfiguration.framework */; };
+		B6777B6918E1344300BD8F05 /* FLFlightMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6777B6818E1344300BD8F05 /* FLFlightMainViewController.m */; };
+		B6777B7A18E1DD6A00BD8F05 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = B6777B7918E1DD6A00BD8F05 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -396,11 +398,11 @@
 		B6777A7118E12E6700BD8F05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6777A7318E12E6700BD8F05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6777A7518E12E6700BD8F05 /* Flight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flight-Prefix.pch"; sourceTree = "<group>"; };
-		B6777A7618E12E6700BD8F05 /* FLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FLAppDelegate.h; path = Classes/FLAppDelegate.h; sourceTree = "<group>"; };
-		B6777A7718E12E6700BD8F05 /* FLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FLAppDelegate.m; path = Classes/FLAppDelegate.m; sourceTree = "<group>"; };
+		B6777A7618E12E6700BD8F05 /* FLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAppDelegate.h; sourceTree = "<group>"; };
+		B6777A7718E12E6700BD8F05 /* FLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAppDelegate.m; sourceTree = "<group>"; };
 		B6777A7A18E12E6700BD8F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B6777A7C18E12E6700BD8F05 /* FLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FLViewController.h; path = Classes/FLViewController.h; sourceTree = "<group>"; };
-		B6777A7D18E12E6700BD8F05 /* FLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FLViewController.m; path = Classes/FLViewController.m; sourceTree = "<group>"; };
+		B6777A7C18E12E6700BD8F05 /* FLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLViewController.h; sourceTree = "<group>"; };
+		B6777A7D18E12E6700BD8F05 /* FLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLViewController.m; sourceTree = "<group>"; };
 		B6777A7F18E12E6700BD8F05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6777A8518E12E6800BD8F05 /* FlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6777A8618E12E6800BD8F05 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -432,6 +434,9 @@
 		B6777B4518E1309A00BD8F05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B6777B4618E1309A00BD8F05 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B6777B4718E1309A00BD8F05 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B6777B6718E1344300BD8F05 /* FLFlightMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLFlightMainViewController.h; sourceTree = "<group>"; };
+		B6777B6818E1344300BD8F05 /* FLFlightMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLFlightMainViewController.m; sourceTree = "<group>"; };
+		B6777B7918E1DD6A00BD8F05 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -541,12 +546,9 @@
 		B6777A6D18E12E6700BD8F05 /* Flight */ = {
 			isa = PBXGroup;
 			children = (
-				B6777A7618E12E6700BD8F05 /* FLAppDelegate.h */,
-				B6777A7718E12E6700BD8F05 /* FLAppDelegate.m */,
-				B6777A7918E12E6700BD8F05 /* Main.storyboard */,
-				B6777A7C18E12E6700BD8F05 /* FLViewController.h */,
-				B6777A7D18E12E6700BD8F05 /* FLViewController.m */,
+				B6777B6218E1316F00BD8F05 /* Classes */,
 				B6777A7F18E12E6700BD8F05 /* Images.xcassets */,
+				B6777A7918E12E6700BD8F05 /* Main.storyboard */,
 				B6777A6E18E12E6700BD8F05 /* Supporting Files */,
 			);
 			path = Flight;
@@ -555,6 +557,7 @@
 		B6777A6E18E12E6700BD8F05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6777B7918E1DD6A00BD8F05 /* test.png */,
 				B6777A6F18E12E6700BD8F05 /* Flight-Info.plist */,
 				B6777A7018E12E6700BD8F05 /* InfoPlist.strings */,
 				B6777A7318E12E6700BD8F05 /* main.m */,
@@ -632,6 +635,43 @@
 				B6777B2A18E12F5F00BD8F05 /* libAPSplitViewController.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B6777B6018E1315400BD8F05 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B6777A7618E12E6700BD8F05 /* FLAppDelegate.h */,
+				B6777A7718E12E6700BD8F05 /* FLAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		B6777B6118E1315C00BD8F05 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6777B6618E1342600BD8F05 /* Flight */,
+				B6777A7C18E12E6700BD8F05 /* FLViewController.h */,
+				B6777A7D18E12E6700BD8F05 /* FLViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B6777B6218E1316F00BD8F05 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6777B6018E1315400BD8F05 /* App Delegate */,
+				B6777B6118E1315C00BD8F05 /* View Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B6777B6618E1342600BD8F05 /* Flight */ = {
+			isa = PBXGroup;
+			children = (
+				B6777B6718E1344300BD8F05 /* FLFlightMainViewController.h */,
+				B6777B6818E1344300BD8F05 /* FLFlightMainViewController.m */,
+			);
+			name = Flight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1046,6 +1086,7 @@
 				B6777A8018E12E6700BD8F05 /* Images.xcassets in Resources */,
 				B6777A7218E12E6700BD8F05 /* InfoPlist.strings in Resources */,
 				B6777A7B18E12E6700BD8F05 /* Main.storyboard in Resources */,
+				B6777B7A18E1DD6A00BD8F05 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1067,6 +1108,7 @@
 				B6777A7818E12E6700BD8F05 /* FLAppDelegate.m in Sources */,
 				B6777A7418E12E6700BD8F05 /* main.m in Sources */,
 				B6777A7E18E12E6700BD8F05 /* FLViewController.m in Sources */,
+				B6777B6918E1344300BD8F05 /* FLFlightMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1194,6 +1236,10 @@
 		B6777A9718E12E6800BD8F05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1217,6 +1263,10 @@
 		B6777A9818E12E6800BD8F05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

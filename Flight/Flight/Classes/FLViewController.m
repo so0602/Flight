@@ -14,16 +14,14 @@
 
 @implementation FLViewController
 
-- (void)viewDidLoad
-{
+-(void)viewDidLoad{
+    if( [self respondsToSelector:@selector(edgesForExtendedLayout)] ){
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
+    
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    [self languageDidChanged];
 }
 
 @end
