@@ -21,6 +21,31 @@
 		B6777A8918E12E6800BD8F05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777A6B18E12E6700BD8F05 /* UIKit.framework */; };
 		B6777A9118E12E6800BD8F05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6777A8F18E12E6800BD8F05 /* InfoPlist.strings */; };
 		B6777A9318E12E6800BD8F05 /* FlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6777A9218E12E6800BD8F05 /* FlightTests.m */; };
+		B6777B2D18E12F9D00BD8F05 /* libYT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B1E18E12F5F00BD8F05 /* libYT.a */; };
+		B6777B4818E1309A00BD8F05 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3018E1309900BD8F05 /* Accelerate.framework */; };
+		B6777B4918E1309A00BD8F05 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3118E1309900BD8F05 /* AddressBook.framework */; };
+		B6777B4A18E1309A00BD8F05 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3218E1309900BD8F05 /* AudioToolbox.framework */; };
+		B6777B4B18E1309A00BD8F05 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3318E1309900BD8F05 /* AVFoundation.framework */; };
+		B6777B4C18E1309A00BD8F05 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3418E1309900BD8F05 /* CFNetwork.framework */; };
+		B6777B4D18E1309A00BD8F05 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3518E1309900BD8F05 /* CoreData.framework */; };
+		B6777B4E18E1309A00BD8F05 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3618E1309900BD8F05 /* CoreFoundation.framework */; };
+		B6777B4F18E1309A00BD8F05 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3718E1309900BD8F05 /* CoreImage.framework */; };
+		B6777B5018E1309A00BD8F05 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3818E1309900BD8F05 /* CoreLocation.framework */; };
+		B6777B5118E1309A00BD8F05 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3918E1309900BD8F05 /* CoreMedia.framework */; };
+		B6777B5218E1309A00BD8F05 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3A18E1309A00BD8F05 /* CoreText.framework */; };
+		B6777B5318E1309A00BD8F05 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3B18E1309A00BD8F05 /* CoreVideo.framework */; };
+		B6777B5418E1309A00BD8F05 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3C18E1309A00BD8F05 /* ImageIO.framework */; };
+		B6777B5518E1309A00BD8F05 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3D18E1309A00BD8F05 /* libsqlite3.dylib */; };
+		B6777B5618E1309A00BD8F05 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3E18E1309A00BD8F05 /* libxml2.dylib */; };
+		B6777B5718E1309A00BD8F05 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B3F18E1309A00BD8F05 /* libz.dylib */; };
+		B6777B5818E1309A00BD8F05 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4018E1309A00BD8F05 /* MapKit.framework */; };
+		B6777B5918E1309A00BD8F05 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4118E1309A00BD8F05 /* MessageUI.framework */; };
+		B6777B5A18E1309A00BD8F05 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4218E1309A00BD8F05 /* MobileCoreServices.framework */; };
+		B6777B5B18E1309A00BD8F05 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4318E1309A00BD8F05 /* OpenAL.framework */; };
+		B6777B5C18E1309A00BD8F05 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4418E1309A00BD8F05 /* OpenGLES.framework */; };
+		B6777B5D18E1309A00BD8F05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4518E1309A00BD8F05 /* QuartzCore.framework */; };
+		B6777B5E18E1309A00BD8F05 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4618E1309A00BD8F05 /* Security.framework */; };
+		B6777B5F18E1309A00BD8F05 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4718E1309A00BD8F05 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +55,335 @@
 			proxyType = 1;
 			remoteGlobalIDString = B6777A6318E12E6700BD8F05;
 			remoteInfo = Flight;
+		};
+		B6777ACF18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = _AdditionalLibrary;
+		};
+		B6777AD118E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 425260BE1557919300D4D689;
+			remoteInfo = ADLivelyTableView;
+		};
+		B6777AD318E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42A445CF15C9293000A907F0;
+			remoteInfo = ATMHud;
+		};
+		B6777AD518E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42ABACAE1414790F00537B39;
+			remoteInfo = ASIHTTPRequest;
+		};
+		B6777AD718E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42F6636213E961770068F7CF;
+			remoteInfo = AudioStreamer;
+		};
+		B6777AD918E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4A0506D14756973006CC4B0;
+			remoteInfo = CocoaAMF;
+		};
+		B6777ADB18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C45A9F3015890A9B00019B38;
+			remoteInfo = CocoaHTTPServer;
+		};
+		B6777ADD18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 425AE9D0157341F40002CBE8;
+			remoteInfo = CocoaSecurity;
+		};
+		B6777ADF18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4225CA4014F745DC003B893A;
+			remoteInfo = CurledView;
+		};
+		B6777AE118E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 427B59F11473BA9A00747E9B;
+			remoteInfo = DCRoundSwitch;
+		};
+		B6777AE318E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF62BD25167580F300209E31;
+			remoteInfo = DejalActivityView;
+		};
+		B6777AE518E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42C218AA1498A60A00AD9FED;
+			remoteInfo = EGOPhotoViewer;
+		};
+		B6777AE718E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 424C4E9B15D2321100DFF323;
+			remoteInfo = FMDatabase;
+		};
+		B6777AE918E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42F6627113E93E460068F7CF;
+			remoteInfo = FTUtils;
+		};
+		B6777AEB18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C414AB6A15DC20AB002DE598;
+			remoteInfo = GMGridView;
+		};
+		B6777AED18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42E694D81574999200F9679F;
+			remoteInfo = HTMLParser;
+		};
+		B6777AEF18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 423F456415240BC900F11D23;
+			remoteInfo = iCarousel;
+		};
+		B6777AF118E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 427EFF2415736A27009ED244;
+			remoteInfo = ITNSStreamUtil;
+		};
+		B6777AF318E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42EE4CE015760527003F2F57;
+			remoteInfo = JSONKit;
+		};
+		B6777AF518E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 420E68C715CF6B5B001127FF;
+			remoteInfo = KissXML;
+		};
+		B6777AF718E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4208F52E15CA33860032490B;
+			remoteInfo = MBProgressHUD;
+		};
+		B6777AF918E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42448780156F729C0008055E;
+			remoteInfo = MCSegmentedControl;
+		};
+		B6777AFB18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42596EC81566021E005366CD;
+			remoteInfo = MGSplitViewController;
+		};
+		B6777AFD18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42A277231575EA53000C59A1;
+			remoteInfo = NSLogger;
+		};
+		B6777AFF18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4284E72A1585B6BC0089718F;
+			remoteInfo = "Objective-Zip";
+		};
+		B6777B0118E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4DA0F81155E948F0079321E;
+			remoteInfo = PetHunter;
+		};
+		B6777B0318E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EFD7270916685D0700A2FE60;
+			remoteInfo = RNTextStatistics;
+		};
+		B6777B0518E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4640F7C15565B1D0029DF8F;
+			remoteInfo = PrettyKit;
+		};
+		B6777B0718E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42BB88481495F8960099E2E4;
+			remoteInfo = RTLabel;
+		};
+		B6777B0918E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4225CA9314F74D78003B893A;
+			remoteInfo = SpriteAnimation;
+		};
+		B6777B0B18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 425AE96615733DF10002CBE8;
+			remoteInfo = StyledPageControl;
+		};
+		B6777B0D18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42EE4D1D15760FB3003F2F57;
+			remoteInfo = SVGeocoder;
+		};
+		B6777B0F18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42BB886C1495F97D0099E2E4;
+			remoteInfo = SVProgressHUD;
+		};
+		B6777B1118E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42EE4CFB15760AE3003F2F57;
+			remoteInfo = SVPullToRefresh;
+		};
+		B6777B1318E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42EE4E5A15775D16003F2F57;
+			remoteInfo = SYCache;
+		};
+		B6777B1518E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42EE4E6C15775DA4003F2F57;
+			remoteInfo = SYCompositor;
+		};
+		B6777B1718E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42EE4E8315775E4B003F2F57;
+			remoteInfo = SYPaginator;
+		};
+		B6777B1918E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42AD39C714F7712300C18A08;
+			remoteInfo = UAModalPanel;
+		};
+		B6777B1B18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4204BF2F15578ABE00DCA6E7;
+			remoteInfo = UIGlossyButton;
+		};
+		B6777B1D18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42F65A6F13E6AD3F0068F7CF;
+			remoteInfo = YTLibrary;
+		};
+		B6777B1F18E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42F6605C13E92D330068F7CF;
+			remoteInfo = ZipArchive;
+		};
+		B6777B2118E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42BA66041590927F00092EA6;
+			remoteInfo = MiniZip;
+		};
+		B6777B2318E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C43916881590EB31001DBE24;
+			remoteInfo = YTFramework;
+		};
+		B6777B2518E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF62BD451675831200209E31;
+			remoteInfo = WCAlertView;
+		};
+		B6777B2718E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF6B3EE116C3A83C006CD7A0;
+			remoteInfo = NVSlideMenuController;
+		};
+		B6777B2918E12F5F00BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF8193271755E5D3008D1FC3;
+			remoteInfo = APSplitViewController;
+		};
+		B6777B2B18E12F9100BD8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F65A6E13E6AD3F0068F7CF;
+			remoteInfo = YTLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +407,31 @@
 		B6777A8E18E12E6800BD8F05 /* FlightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlightTests-Info.plist"; sourceTree = "<group>"; };
 		B6777A9018E12E6800BD8F05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6777A9218E12E6800BD8F05 /* FlightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightTests.m; sourceTree = "<group>"; };
+		B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AdditionalLibrary.xcodeproj; path = ../../AdditionalLibrary/AdditionalLibrary.xcodeproj; sourceTree = "<group>"; };
+		B6777B3018E1309900BD8F05 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B6777B3118E1309900BD8F05 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B6777B3218E1309900BD8F05 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B6777B3318E1309900BD8F05 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B6777B3418E1309900BD8F05 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B6777B3518E1309900BD8F05 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B6777B3618E1309900BD8F05 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B6777B3718E1309900BD8F05 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		B6777B3818E1309900BD8F05 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B6777B3918E1309900BD8F05 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B6777B3A18E1309A00BD8F05 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B6777B3B18E1309A00BD8F05 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B6777B3C18E1309A00BD8F05 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B6777B3D18E1309A00BD8F05 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B6777B3E18E1309A00BD8F05 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B6777B3F18E1309A00BD8F05 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B6777B4018E1309A00BD8F05 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B6777B4118E1309A00BD8F05 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B6777B4218E1309A00BD8F05 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B6777B4318E1309A00BD8F05 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		B6777B4418E1309A00BD8F05 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B6777B4518E1309A00BD8F05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6777B4618E1309A00BD8F05 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B6777B4718E1309A00BD8F05 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +439,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6777B4818E1309A00BD8F05 /* Accelerate.framework in Frameworks */,
+				B6777B4918E1309A00BD8F05 /* AddressBook.framework in Frameworks */,
+				B6777B4A18E1309A00BD8F05 /* AudioToolbox.framework in Frameworks */,
+				B6777B4B18E1309A00BD8F05 /* AVFoundation.framework in Frameworks */,
+				B6777B4C18E1309A00BD8F05 /* CFNetwork.framework in Frameworks */,
+				B6777B4D18E1309A00BD8F05 /* CoreData.framework in Frameworks */,
+				B6777B4E18E1309A00BD8F05 /* CoreFoundation.framework in Frameworks */,
+				B6777B4F18E1309A00BD8F05 /* CoreImage.framework in Frameworks */,
+				B6777B5018E1309A00BD8F05 /* CoreLocation.framework in Frameworks */,
+				B6777B5118E1309A00BD8F05 /* CoreMedia.framework in Frameworks */,
+				B6777B5218E1309A00BD8F05 /* CoreText.framework in Frameworks */,
+				B6777B5318E1309A00BD8F05 /* CoreVideo.framework in Frameworks */,
+				B6777B5418E1309A00BD8F05 /* ImageIO.framework in Frameworks */,
+				B6777B5518E1309A00BD8F05 /* libsqlite3.dylib in Frameworks */,
+				B6777B5618E1309A00BD8F05 /* libxml2.dylib in Frameworks */,
+				B6777B5718E1309A00BD8F05 /* libz.dylib in Frameworks */,
+				B6777B5818E1309A00BD8F05 /* MapKit.framework in Frameworks */,
+				B6777B5918E1309A00BD8F05 /* MessageUI.framework in Frameworks */,
+				B6777B5A18E1309A00BD8F05 /* MobileCoreServices.framework in Frameworks */,
+				B6777B5B18E1309A00BD8F05 /* OpenAL.framework in Frameworks */,
+				B6777B5C18E1309A00BD8F05 /* OpenGLES.framework in Frameworks */,
+				B6777B5D18E1309A00BD8F05 /* QuartzCore.framework in Frameworks */,
+				B6777B5E18E1309A00BD8F05 /* Security.framework in Frameworks */,
+				B6777B5F18E1309A00BD8F05 /* SystemConfiguration.framework in Frameworks */,
 				B6777A6A18E12E6700BD8F05 /* CoreGraphics.framework in Frameworks */,
+				B6777B2D18E12F9D00BD8F05 /* libYT.a in Frameworks */,
 				B6777A6C18E12E6700BD8F05 /* UIKit.framework in Frameworks */,
 				B6777A6818E12E6700BD8F05 /* Foundation.framework in Frameworks */,
 			);
@@ -101,8 +505,33 @@
 		B6777A6618E12E6700BD8F05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B6777A6718E12E6700BD8F05 /* Foundation.framework */,
+				B6777B3018E1309900BD8F05 /* Accelerate.framework */,
+				B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */,
+				B6777B3118E1309900BD8F05 /* AddressBook.framework */,
+				B6777B3218E1309900BD8F05 /* AudioToolbox.framework */,
+				B6777B3318E1309900BD8F05 /* AVFoundation.framework */,
+				B6777B3418E1309900BD8F05 /* CFNetwork.framework */,
+				B6777B3518E1309900BD8F05 /* CoreData.framework */,
+				B6777B3618E1309900BD8F05 /* CoreFoundation.framework */,
 				B6777A6918E12E6700BD8F05 /* CoreGraphics.framework */,
+				B6777B3718E1309900BD8F05 /* CoreImage.framework */,
+				B6777B3818E1309900BD8F05 /* CoreLocation.framework */,
+				B6777B3918E1309900BD8F05 /* CoreMedia.framework */,
+				B6777B3A18E1309A00BD8F05 /* CoreText.framework */,
+				B6777B3B18E1309A00BD8F05 /* CoreVideo.framework */,
+				B6777A6718E12E6700BD8F05 /* Foundation.framework */,
+				B6777B3C18E1309A00BD8F05 /* ImageIO.framework */,
+				B6777B3D18E1309A00BD8F05 /* libsqlite3.dylib */,
+				B6777B3E18E1309A00BD8F05 /* libxml2.dylib */,
+				B6777B3F18E1309A00BD8F05 /* libz.dylib */,
+				B6777B4018E1309A00BD8F05 /* MapKit.framework */,
+				B6777B4118E1309A00BD8F05 /* MessageUI.framework */,
+				B6777B4218E1309A00BD8F05 /* MobileCoreServices.framework */,
+				B6777B4318E1309A00BD8F05 /* OpenAL.framework */,
+				B6777B4418E1309A00BD8F05 /* OpenGLES.framework */,
+				B6777B4518E1309A00BD8F05 /* QuartzCore.framework */,
+				B6777B4618E1309A00BD8F05 /* Security.framework */,
+				B6777B4718E1309A00BD8F05 /* SystemConfiguration.framework */,
 				B6777A6B18E12E6700BD8F05 /* UIKit.framework */,
 				B6777A8618E12E6800BD8F05 /* XCTest.framework */,
 			);
@@ -152,6 +581,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B6777A9D18E12F5E00BD8F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6777AD018E12F5F00BD8F05 /* AdditionalLibrary.app */,
+				B6777AD218E12F5F00BD8F05 /* libADLivelyTableView.a */,
+				B6777AD418E12F5F00BD8F05 /* libATMHud.a */,
+				B6777AD618E12F5F00BD8F05 /* libASIHTTPRequest.a */,
+				B6777AD818E12F5F00BD8F05 /* libAudioStreamer.a */,
+				B6777ADA18E12F5F00BD8F05 /* libCocoaAMF.a */,
+				B6777ADC18E12F5F00BD8F05 /* libCocoaHTTPServer.a */,
+				B6777ADE18E12F5F00BD8F05 /* libCocoaSecurity.a */,
+				B6777AE018E12F5F00BD8F05 /* libCurledView.a */,
+				B6777AE218E12F5F00BD8F05 /* libDCRoundSwitch.a */,
+				B6777AE418E12F5F00BD8F05 /* libDejalActivityView.a */,
+				B6777AE618E12F5F00BD8F05 /* libEGOPhotoViewer.a */,
+				B6777AE818E12F5F00BD8F05 /* libFMDatabase.a */,
+				B6777AEA18E12F5F00BD8F05 /* libFTUtils.a */,
+				B6777AEC18E12F5F00BD8F05 /* libGMGridView.a */,
+				B6777AEE18E12F5F00BD8F05 /* libHTMLParser.a */,
+				B6777AF018E12F5F00BD8F05 /* libiCarousel.a */,
+				B6777AF218E12F5F00BD8F05 /* libITNSStreamUtil.a */,
+				B6777AF418E12F5F00BD8F05 /* libJSONKit.a */,
+				B6777AF618E12F5F00BD8F05 /* libKissXML.a */,
+				B6777AF818E12F5F00BD8F05 /* libMBProgressHUD.a */,
+				B6777AFA18E12F5F00BD8F05 /* libMCSegmentedControl.a */,
+				B6777AFC18E12F5F00BD8F05 /* libMGSplitViewController.a */,
+				B6777AFE18E12F5F00BD8F05 /* libNSLogger.a */,
+				B6777B0018E12F5F00BD8F05 /* libObjectiveZip.a */,
+				B6777B0218E12F5F00BD8F05 /* PetHunter.app */,
+				B6777B0418E12F5F00BD8F05 /* libRNTextStatistics.a */,
+				B6777B0618E12F5F00BD8F05 /* libPrettyKit.a */,
+				B6777B0818E12F5F00BD8F05 /* libRTLabel.a */,
+				B6777B0A18E12F5F00BD8F05 /* libSpriteAnimation.a */,
+				B6777B0C18E12F5F00BD8F05 /* libStyledPageControl.a */,
+				B6777B0E18E12F5F00BD8F05 /* libSVGeocoder.a */,
+				B6777B1018E12F5F00BD8F05 /* libSVProgressHUD.a */,
+				B6777B1218E12F5F00BD8F05 /* libSVPullToRefresh.a */,
+				B6777B1418E12F5F00BD8F05 /* libSYCache.a */,
+				B6777B1618E12F5F00BD8F05 /* libSYCompositor.a */,
+				B6777B1818E12F5F00BD8F05 /* libSYPaginator.a */,
+				B6777B1A18E12F5F00BD8F05 /* libUAModalPanel.a */,
+				B6777B1C18E12F5F00BD8F05 /* libUIGlossyButton.a */,
+				B6777B1E18E12F5F00BD8F05 /* libYT.a */,
+				B6777B2018E12F5F00BD8F05 /* libZipArchive.a */,
+				B6777B2218E12F5F00BD8F05 /* libMiniZip.a */,
+				B6777B2418E12F5F00BD8F05 /* YTFramework.framework */,
+				B6777B2618E12F5F00BD8F05 /* libWCAlertView.a */,
+				B6777B2818E12F5F00BD8F05 /* libNVSlideMenuController.a */,
+				B6777B2A18E12F5F00BD8F05 /* libAPSplitViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,6 +648,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B6777B2C18E12F9100BD8F05 /* PBXTargetDependency */,
 			);
 			name = Flight;
 			productName = Flight;
@@ -216,6 +699,12 @@
 			mainGroup = B6777A5B18E12E6700BD8F05;
 			productRefGroup = B6777A6518E12E6700BD8F05 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B6777A9D18E12F5E00BD8F05 /* Products */;
+					ProjectRef = B6777A9C18E12F5E00BD8F05 /* AdditionalLibrary.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B6777A6318E12E6700BD8F05 /* Flight */,
@@ -223,6 +712,331 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B6777AD018E12F5F00BD8F05 /* AdditionalLibrary.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AdditionalLibrary.app;
+			remoteRef = B6777ACF18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AD218E12F5F00BD8F05 /* libADLivelyTableView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libADLivelyTableView.a;
+			remoteRef = B6777AD118E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AD418E12F5F00BD8F05 /* libATMHud.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libATMHud.a;
+			remoteRef = B6777AD318E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AD618E12F5F00BD8F05 /* libASIHTTPRequest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libASIHTTPRequest.a;
+			remoteRef = B6777AD518E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AD818E12F5F00BD8F05 /* libAudioStreamer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAudioStreamer.a;
+			remoteRef = B6777AD718E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777ADA18E12F5F00BD8F05 /* libCocoaAMF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaAMF.a;
+			remoteRef = B6777AD918E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777ADC18E12F5F00BD8F05 /* libCocoaHTTPServer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaHTTPServer.a;
+			remoteRef = B6777ADB18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777ADE18E12F5F00BD8F05 /* libCocoaSecurity.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaSecurity.a;
+			remoteRef = B6777ADD18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AE018E12F5F00BD8F05 /* libCurledView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCurledView.a;
+			remoteRef = B6777ADF18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AE218E12F5F00BD8F05 /* libDCRoundSwitch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDCRoundSwitch.a;
+			remoteRef = B6777AE118E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AE418E12F5F00BD8F05 /* libDejalActivityView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDejalActivityView.a;
+			remoteRef = B6777AE318E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AE618E12F5F00BD8F05 /* libEGOPhotoViewer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEGOPhotoViewer.a;
+			remoteRef = B6777AE518E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AE818E12F5F00BD8F05 /* libFMDatabase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFMDatabase.a;
+			remoteRef = B6777AE718E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AEA18E12F5F00BD8F05 /* libFTUtils.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFTUtils.a;
+			remoteRef = B6777AE918E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AEC18E12F5F00BD8F05 /* libGMGridView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGMGridView.a;
+			remoteRef = B6777AEB18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AEE18E12F5F00BD8F05 /* libHTMLParser.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHTMLParser.a;
+			remoteRef = B6777AED18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AF018E12F5F00BD8F05 /* libiCarousel.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libiCarousel.a;
+			remoteRef = B6777AEF18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AF218E12F5F00BD8F05 /* libITNSStreamUtil.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libITNSStreamUtil.a;
+			remoteRef = B6777AF118E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AF418E12F5F00BD8F05 /* libJSONKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libJSONKit.a;
+			remoteRef = B6777AF318E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AF618E12F5F00BD8F05 /* libKissXML.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKissXML.a;
+			remoteRef = B6777AF518E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AF818E12F5F00BD8F05 /* libMBProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMBProgressHUD.a;
+			remoteRef = B6777AF718E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AFA18E12F5F00BD8F05 /* libMCSegmentedControl.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMCSegmentedControl.a;
+			remoteRef = B6777AF918E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AFC18E12F5F00BD8F05 /* libMGSplitViewController.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMGSplitViewController.a;
+			remoteRef = B6777AFB18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777AFE18E12F5F00BD8F05 /* libNSLogger.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libNSLogger.a;
+			remoteRef = B6777AFD18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B0018E12F5F00BD8F05 /* libObjectiveZip.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libObjectiveZip.a;
+			remoteRef = B6777AFF18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B0218E12F5F00BD8F05 /* PetHunter.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = PetHunter.app;
+			remoteRef = B6777B0118E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B0418E12F5F00BD8F05 /* libRNTextStatistics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNTextStatistics.a;
+			remoteRef = B6777B0318E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B0618E12F5F00BD8F05 /* libPrettyKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPrettyKit.a;
+			remoteRef = B6777B0518E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B0818E12F5F00BD8F05 /* libRTLabel.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRTLabel.a;
+			remoteRef = B6777B0718E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B0A18E12F5F00BD8F05 /* libSpriteAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSpriteAnimation.a;
+			remoteRef = B6777B0918E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B0C18E12F5F00BD8F05 /* libStyledPageControl.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStyledPageControl.a;
+			remoteRef = B6777B0B18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B0E18E12F5F00BD8F05 /* libSVGeocoder.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSVGeocoder.a;
+			remoteRef = B6777B0D18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B1018E12F5F00BD8F05 /* libSVProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSVProgressHUD.a;
+			remoteRef = B6777B0F18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B1218E12F5F00BD8F05 /* libSVPullToRefresh.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSVPullToRefresh.a;
+			remoteRef = B6777B1118E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B1418E12F5F00BD8F05 /* libSYCache.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSYCache.a;
+			remoteRef = B6777B1318E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B1618E12F5F00BD8F05 /* libSYCompositor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSYCompositor.a;
+			remoteRef = B6777B1518E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B1818E12F5F00BD8F05 /* libSYPaginator.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSYPaginator.a;
+			remoteRef = B6777B1718E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B1A18E12F5F00BD8F05 /* libUAModalPanel.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUAModalPanel.a;
+			remoteRef = B6777B1918E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B1C18E12F5F00BD8F05 /* libUIGlossyButton.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUIGlossyButton.a;
+			remoteRef = B6777B1B18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B1E18E12F5F00BD8F05 /* libYT.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libYT.a;
+			remoteRef = B6777B1D18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B2018E12F5F00BD8F05 /* libZipArchive.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZipArchive.a;
+			remoteRef = B6777B1F18E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B2218E12F5F00BD8F05 /* libMiniZip.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMiniZip.a;
+			remoteRef = B6777B2118E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B2418E12F5F00BD8F05 /* YTFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework.static;
+			path = YTFramework.framework;
+			remoteRef = B6777B2318E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B2618E12F5F00BD8F05 /* libWCAlertView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libWCAlertView.a;
+			remoteRef = B6777B2518E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B2818E12F5F00BD8F05 /* libNVSlideMenuController.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libNVSlideMenuController.a;
+			remoteRef = B6777B2718E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6777B2A18E12F5F00BD8F05 /* libAPSplitViewController.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAPSplitViewController.a;
+			remoteRef = B6777B2918E12F5F00BD8F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B6777A6218E12E6700BD8F05 /* Resources */ = {
@@ -271,6 +1085,11 @@
 			isa = PBXTargetDependency;
 			target = B6777A6318E12E6700BD8F05 /* Flight */;
 			targetProxy = B6777A8A18E12E6800BD8F05 /* PBXContainerItemProxy */;
+		};
+		B6777B2C18E12F9100BD8F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YTLibrary;
+			targetProxy = B6777B2B18E12F9100BD8F05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -379,7 +1198,17 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flight/Flight-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$ADDITIONAL_LIBRARY_SRC/**",
+					"${SDK_DIR}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "Flight/Flight-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,7 +1221,17 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flight/Flight-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$ADDITIONAL_LIBRARY_SRC/**",
+					"${SDK_DIR}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "Flight/Flight-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
