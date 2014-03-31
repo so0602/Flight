@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B663EFF318E93FC60077E3FF /* FLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B663EFF218E93FC60077E3FF /* FLMainViewController.m */; };
+		B663EFF718E94A160077E3FF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B663EFF918E94A160077E3FF /* Localizable.strings */; };
 		B6777A6818E12E6700BD8F05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777A6718E12E6700BD8F05 /* Foundation.framework */; };
 		B6777A6A18E12E6700BD8F05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777A6918E12E6700BD8F05 /* CoreGraphics.framework */; };
 		B6777A6C18E12E6700BD8F05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777A6B18E12E6700BD8F05 /* UIKit.framework */; };
@@ -390,6 +392,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B663EFF118E93FC60077E3FF /* FLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMainViewController.h; sourceTree = "<group>"; };
+		B663EFF218E93FC60077E3FF /* FLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMainViewController.m; sourceTree = "<group>"; };
+		B663EFF818E94A160077E3FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B6777A6418E12E6700BD8F05 /* Flight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6777A6718E12E6700BD8F05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6777A6918E12E6700BD8F05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -488,6 +493,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B663EFF018E93FAE0077E3FF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B663EFF118E93FC60077E3FF /* FLMainViewController.h */,
+				B663EFF218E93FC60077E3FF /* FLMainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B663EFF418E93FE00077E3FF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B6777A7C18E12E6700BD8F05 /* FLViewController.h */,
+				B6777A7D18E12E6700BD8F05 /* FLViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		B6777A5B18E12E6700BD8F05 = {
 			isa = PBXGroup;
 			children = (
@@ -562,6 +585,7 @@
 				B6777A7018E12E6700BD8F05 /* InfoPlist.strings */,
 				B6777A7318E12E6700BD8F05 /* main.m */,
 				B6777A7518E12E6700BD8F05 /* Flight-Prefix.pch */,
+				B663EFF918E94A160077E3FF /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -649,9 +673,9 @@
 		B6777B6118E1315C00BD8F05 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B663EFF418E93FE00077E3FF /* Base */,
 				B6777B6618E1342600BD8F05 /* Flight */,
-				B6777A7C18E12E6700BD8F05 /* FLViewController.h */,
-				B6777A7D18E12E6700BD8F05 /* FLViewController.m */,
+				B663EFF018E93FAE0077E3FF /* Main */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -1083,6 +1107,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B663EFF718E94A160077E3FF /* Localizable.strings in Resources */,
 				B6777A8018E12E6700BD8F05 /* Images.xcassets in Resources */,
 				B6777A7218E12E6700BD8F05 /* InfoPlist.strings in Resources */,
 				B6777A7B18E12E6700BD8F05 /* Main.storyboard in Resources */,
@@ -1105,6 +1130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B663EFF318E93FC60077E3FF /* FLMainViewController.m in Sources */,
 				B6777A7818E12E6700BD8F05 /* FLAppDelegate.m in Sources */,
 				B6777A7418E12E6700BD8F05 /* main.m in Sources */,
 				B6777A7E18E12E6700BD8F05 /* FLViewController.m in Sources */,
@@ -1136,6 +1162,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B663EFF918E94A160077E3FF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B663EFF818E94A160077E3FF /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		B6777A7018E12E6700BD8F05 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1346,6 +1380,7 @@
 				B6777A9818E12E6800BD8F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6777A9918E12E6800BD8F05 /* Build configuration list for PBXNativeTarget "FlightTests" */ = {
 			isa = XCConfigurationList;
@@ -1354,6 +1389,7 @@
 				B6777A9B18E12E6800BD8F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

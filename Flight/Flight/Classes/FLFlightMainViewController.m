@@ -14,6 +14,12 @@
 
 @implementation FLFlightMainViewController
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBarHidden = FALSE;
+}
+
 -(void)languageDidChanged{
     [super languageDidChanged];
     

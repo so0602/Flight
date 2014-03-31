@@ -22,6 +22,11 @@
     [super viewDidLoad];
     
     [self languageDidChanged];
+    
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithHexString:@"68B5EF"];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                                                   [UIColor whiteColor], NSForegroundColorAttributeName, nil];
 }
 
 @end
