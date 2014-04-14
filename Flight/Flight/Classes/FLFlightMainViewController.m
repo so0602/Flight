@@ -8,6 +8,8 @@
 
 #import "FLFlightMainViewController.h"
 
+#import "FLDatabase.h"
+
 @interface FLFlightMainViewController ()
 
 @end
@@ -18,6 +20,17 @@
     [super viewWillAppear:animated];
     
     self.navigationController.navigationBarHidden = FALSE;
+    
+    [FLDatabase database];
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    
+    YTLog(@"airlines: %d", [FLDatabase database].airlines.count);
+    YTLog(@"airports: %d", [FLDatabase database].airports.count);
+    YTLog(@"cities: %d", [FLDatabase database].cities.count);
+    YTLog(@"countries: %d", [FLDatabase database].countries.count);
 }
 
 -(void)languageDidChanged{

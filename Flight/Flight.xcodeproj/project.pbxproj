@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6394FFC18FC4F5E0052FD54 /* Flight.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B6394FFB18FC4F5E0052FD54 /* Flight.sqlite */; };
+		B639502E18FC4FC40052FD54 /* FLAirline.m in Sources */ = {isa = PBXBuildFile; fileRef = B639502D18FC4FC40052FD54 /* FLAirline.m */; };
+		B639503618FC51FB0052FD54 /* FLAirport.m in Sources */ = {isa = PBXBuildFile; fileRef = B639503518FC51FB0052FD54 /* FLAirport.m */; };
+		B639503918FC532B0052FD54 /* FLCity.m in Sources */ = {isa = PBXBuildFile; fileRef = B639503818FC532B0052FD54 /* FLCity.m */; };
+		B639503C18FC54740052FD54 /* FLCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = B639503B18FC54740052FD54 /* FLCountry.m */; };
+		B639503F18FC56AF0052FD54 /* FLDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B639503E18FC56AF0052FD54 /* FLDatabase.m */; };
 		B663EFF318E93FC60077E3FF /* FLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B663EFF218E93FC60077E3FF /* FLMainViewController.m */; };
 		B663EFF718E94A160077E3FF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B663EFF918E94A160077E3FF /* Localizable.strings */; };
 		B6777A6818E12E6700BD8F05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777A6718E12E6700BD8F05 /* Foundation.framework */; };
@@ -391,6 +397,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6394FFB18FC4F5E0052FD54 /* Flight.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Flight.sqlite; sourceTree = "<group>"; };
+		B639502C18FC4FC40052FD54 /* FLAirline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAirline.h; sourceTree = "<group>"; };
+		B639502D18FC4FC40052FD54 /* FLAirline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAirline.m; sourceTree = "<group>"; };
+		B639503418FC51FB0052FD54 /* FLAirport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAirport.h; sourceTree = "<group>"; };
+		B639503518FC51FB0052FD54 /* FLAirport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAirport.m; sourceTree = "<group>"; };
+		B639503718FC532B0052FD54 /* FLCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCity.h; sourceTree = "<group>"; };
+		B639503818FC532B0052FD54 /* FLCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCity.m; sourceTree = "<group>"; };
+		B639503A18FC54740052FD54 /* FLCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCountry.h; sourceTree = "<group>"; };
+		B639503B18FC54740052FD54 /* FLCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCountry.m; sourceTree = "<group>"; };
+		B639503D18FC56AF0052FD54 /* FLDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLDatabase.h; sourceTree = "<group>"; };
+		B639503E18FC56AF0052FD54 /* FLDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDatabase.m; sourceTree = "<group>"; };
 		B663EFF118E93FC60077E3FF /* FLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMainViewController.h; sourceTree = "<group>"; };
 		B663EFF218E93FC60077E3FF /* FLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMainViewController.m; sourceTree = "<group>"; };
 		B663EFF818E94A160077E3FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -491,6 +508,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6394FFA18FC4F5E0052FD54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6394FFB18FC4F5E0052FD54 /* Flight.sqlite */,
+			);
+			name = Resources;
+			path = ../../../../Bitbucket/iOS/Flight/Flight/Flight/Resources;
+			sourceTree = "<group>";
+		};
+		B639502B18FC4F8F0052FD54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B639503318FC51DF0052FD54 /* Database Models */,
+				B639503D18FC56AF0052FD54 /* FLDatabase.h */,
+				B639503E18FC56AF0052FD54 /* FLDatabase.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B639503318FC51DF0052FD54 /* Database Models */ = {
+			isa = PBXGroup;
+			children = (
+				B639502C18FC4FC40052FD54 /* FLAirline.h */,
+				B639502D18FC4FC40052FD54 /* FLAirline.m */,
+				B639503418FC51FB0052FD54 /* FLAirport.h */,
+				B639503518FC51FB0052FD54 /* FLAirport.m */,
+				B639503718FC532B0052FD54 /* FLCity.h */,
+				B639503818FC532B0052FD54 /* FLCity.m */,
+				B639503A18FC54740052FD54 /* FLCountry.h */,
+				B639503B18FC54740052FD54 /* FLCountry.m */,
+			);
+			name = "Database Models";
+			sourceTree = "<group>";
+		};
 		B663EFF018E93FAE0077E3FF /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -578,6 +629,7 @@
 		B6777A6E18E12E6700BD8F05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6394FFA18FC4F5E0052FD54 /* Resources */,
 				B6777A6F18E12E6700BD8F05 /* Flight-Info.plist */,
 				B6777A7018E12E6700BD8F05 /* InfoPlist.strings */,
 				B6777A7318E12E6700BD8F05 /* main.m */,
@@ -681,6 +733,7 @@
 			isa = PBXGroup;
 			children = (
 				B6777B6018E1315400BD8F05 /* App Delegate */,
+				B639502B18FC4F8F0052FD54 /* Models */,
 				B6777B6118E1315C00BD8F05 /* View Controllers */,
 			);
 			path = Classes;
@@ -1106,6 +1159,7 @@
 			files = (
 				B663EFF718E94A160077E3FF /* Localizable.strings in Resources */,
 				B6777A8018E12E6700BD8F05 /* Images.xcassets in Resources */,
+				B6394FFC18FC4F5E0052FD54 /* Flight.sqlite in Resources */,
 				B6777A7218E12E6700BD8F05 /* InfoPlist.strings in Resources */,
 				B6777A7B18E12E6700BD8F05 /* Main.storyboard in Resources */,
 			);
@@ -1126,10 +1180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B639503618FC51FB0052FD54 /* FLAirport.m in Sources */,
 				B663EFF318E93FC60077E3FF /* FLMainViewController.m in Sources */,
+				B639503F18FC56AF0052FD54 /* FLDatabase.m in Sources */,
 				B6777A7818E12E6700BD8F05 /* FLAppDelegate.m in Sources */,
 				B6777A7418E12E6700BD8F05 /* main.m in Sources */,
 				B6777A7E18E12E6700BD8F05 /* FLViewController.m in Sources */,
+				B639502E18FC4FC40052FD54 /* FLAirline.m in Sources */,
+				B639503918FC532B0052FD54 /* FLCity.m in Sources */,
+				B639503C18FC54740052FD54 /* FLCountry.m in Sources */,
 				B6777B6918E1344300BD8F05 /* FLFlightMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
