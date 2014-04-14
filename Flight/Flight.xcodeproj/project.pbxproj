@@ -49,7 +49,6 @@
 		B6777B5E18E1309A00BD8F05 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4618E1309A00BD8F05 /* Security.framework */; };
 		B6777B5F18E1309A00BD8F05 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6777B4718E1309A00BD8F05 /* SystemConfiguration.framework */; };
 		B6777B6918E1344300BD8F05 /* FLFlightMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6777B6818E1344300BD8F05 /* FLFlightMainViewController.m */; };
-		B6777B7A18E1DD6A00BD8F05 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = B6777B7918E1DD6A00BD8F05 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -441,7 +440,6 @@
 		B6777B4718E1309A00BD8F05 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B6777B6718E1344300BD8F05 /* FLFlightMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLFlightMainViewController.h; sourceTree = "<group>"; };
 		B6777B6818E1344300BD8F05 /* FLFlightMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLFlightMainViewController.m; sourceTree = "<group>"; };
-		B6777B7918E1DD6A00BD8F05 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -580,7 +578,6 @@
 		B6777A6E18E12E6700BD8F05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B6777B7918E1DD6A00BD8F05 /* test.png */,
 				B6777A6F18E12E6700BD8F05 /* Flight-Info.plist */,
 				B6777A7018E12E6700BD8F05 /* InfoPlist.strings */,
 				B6777A7318E12E6700BD8F05 /* main.m */,
@@ -1111,7 +1108,6 @@
 				B6777A8018E12E6700BD8F05 /* Images.xcassets in Resources */,
 				B6777A7218E12E6700BD8F05 /* InfoPlist.strings in Resources */,
 				B6777A7B18E12E6700BD8F05 /* Main.storyboard in Resources */,
-				B6777B7A18E1DD6A00BD8F05 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
